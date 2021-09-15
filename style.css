@@ -1,0 +1,93 @@
+body {
+  background-color: #edd263;
+}
+.container {
+  width: 80vw;
+  margin: 0 auto;
+}
+.singleItem {
+  width: 230px;
+  height: 260px;
+  border-radius: 10px;
+  background-color: #f8f7f5;
+  overflow: hidden;
+}
+#allCategory {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin-top: 100px;
+}
+.categoryDiv {
+  height: 300px;
+  text-align: center;
+}
+.categoryDiv img {
+  width: 230px;
+  height: 200px;
+}
+
+.categoryDiv a {
+  display: block;
+  margin-top: 10px;
+  text-decoration: none;
+  color: #000;
+  font-size: 16px;
+  font-weight: 700;
+}
+.itemCenter {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.itemCenter input {
+  width: 30%;
+  height: 20px;
+  outline: none;
+  border-radius: 6px;
+  border: none;
+  padding: 5px;
+}
+
+.itemCenter button {
+  padding: 7.5px;
+  border-radius: 0 6px 6px 0;
+  border: none;
+  margin-left: -8px;
+  background-color: #3b2d64;
+  color: #fff;
+  cursor: pointer;
+}
+.singleItemDetails {
+  width: 50%;
+  height: 800px;
+  background-color: #fff;
+  margin: 0 auto;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.singleItemDetails h1 {
+  text-align: center;
+}
+
+.singleItemDetails ul li {
+  list-style: none;
+}
+
+.singleItemDetails ul li:before {
+  content: "\2713";
+  display: inline-block;
+  color: red;
+  padding: 0 6px 0 0;
+}
+
+ul li {
+  list-style-type: none;
+  font-size: 1em;
+}
+
+.singleItemDetails img {
+  width: 100%;
+  height: 50%;
+}
